@@ -1,0 +1,160 @@
+   
+    .logo {
+        border-radius: 50px;
+      }
+  
+      #title-image {
+        transform: rotate(20deg);
+        height: 36rem;
+      }
+      .extra{
+        height: fit-content;
+        transform: translatey(15%); 
+        display: flex; 
+        justify-content: center;
+      }
+      @media (max-width:990px)
+      {
+        #title-image{
+          transform:rotate(0);
+          /* position: absolute; */
+        }
+        .extra{
+          /* position: absolute; */
+          position: relative;
+          transform: translatey(0%);
+        
+        }
+        .mobile-fri{
+        height: auto;
+        overflow: visible;
+        }
+        .title-heading{
+          text-align: center;
+        }
+      }
+  
+      .title-heading {
+        margin: 22% 0 5% 0;
+      }
+  
+      .sub-heading {
+        font-family: "montserrat-bold", sans-serif;
+        font-weight: 700;
+      }
+  
+      #testimonials-md {
+        background-color: #ff4c68;
+        color: #fff;
+        text-align: center;
+      }
+  
+      #testimonials-md ::-webkit-scrollbar {
+        width: 20px;
+      }
+  
+      #testimonials-md::-webkit-scrollbar-track {
+        background-color: #ff4c68;
+      }
+  
+  
+      .testimonial-description {
+        font-family: "montserrat-bold", sans-serif;
+        font-size: 300%;
+        line-height: 4rem;
+        font-weight: 800;
+        height: 15rem;
+        overflow-y: scroll;
+      }
+  
+      .testimonial-image {
+        height: 200px;
+        border-radius: 100%;
+      }
+  
+      #press {
+        background-color: #ff4c68;
+        text-align: center;
+        padding: 0 5% 0 5%;
+      }
+  
+      .press-logo {
+        width: 15%;
+        margin: 4%;
+        height: max-content;
+      }
+  
+      .carousel-item {
+        padding: 5% 15% 0% 15%;
+      }
+      #pricing{
+        
+        padding: 5% 10% 5% 10%;
+      }
+      .pricing_templet > h2{
+        font-family: "montserrat-bold",sans-serif;
+        line-height: 1.5;
+        font-weight: 900;
+        margin-bottom: 2% ;
+      }
+      .pricing_templet > p {
+        font-family: sans-serif;
+        font-weight: 700;
+        color:#CFD2CF;
+        margin-bottom: 3%;
+      }
+     .card{
+      margin-bottom: 5%;
+     }
+     .card-header > h3{
+      font-weight: 800;
+      line-height: 1.5;
+      font-size: 200%;
+     }
+     .sha:hover {
+      box-shadow: 0px 0px 20px 0px grey;
+      cursor: pointer;
+     }
+     #cta{
+      background-color: #ff4c68;
+      padding: 5% 15% 5% 15%;
+      text-align: center;
+  
+     }
+     #cta > h3{
+      font-family: 'Montserrat-black', sans-serif;
+      font-size: 3rem;
+      line-height: 1.5;
+      font-weight: 800;
+      color: white;
+      padding: 6% 5% 5% 5%;
+  }
+  
+   .icon-media{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 25% 2% 25%;
+   }  
+
+   .back-to-top{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-weight: 500;
+   }
+   .back-to-top > button{
+    background-color: #fff;
+   }
+   .back-to-top > button :hover{
+    background-color: #fff;
+   }
+   /* @media (max-width:600px)
+   {
+    .back-to-top>img{
+      height: 32px;
+    }
+   } */
